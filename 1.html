@@ -1,0 +1,140 @@
+<div class="di">
+    <div id="first"></div>
+    <div id="second"></div>
+    <div id="third"></div>
+    <div id="fourth"></div>
+    <!-- <div id="fifth"></div>
+    <div id="sixth"></div>
+    <div id="seven"></div>
+    <div id="eight"></div> -->
+</div>
+  <style>
+    *{
+      padding:0;
+      margin:0;
+    }
+    .di
+    {
+        width:400px;
+        height: 400px;
+        display: flex;
+        position:relative;
+        align-items: center;
+        justify-content: center;
+      /* background: white; */
+    }
+    #first
+    {
+      position:absolute;
+      width:100px;
+      height:100px;
+      background:#51B5A9;
+      border-radius:100px 0px 0px 0px;
+      top:50px;
+      left:100px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: backwards;
+      animation-timing-function: ease-in-out;
+    }
+    #second
+    {
+      position:absolute;
+      width:100px;
+      height:100px;
+      background:#FADE8B;
+      border-radius:0px 100px 0px 0px;
+      top:50px;
+      left:200px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: backwards;
+      animation-timing-function: ease-in-out;
+    }
+    #third
+    {
+      position:absolute;
+      width:100px;
+      height:100px;
+      background:#F7F3D7;
+      border-radius:0px 0px 0px 100px;
+      top:150px;
+      left:100px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 4s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: backwards;
+      animation-timing-function: ease-in-out;
+    }
+    #fourth
+    {
+      position:absolute;
+      width:100px;
+      height:100px;
+      background:#1A4341;
+      border-radius:0px 0px 100px 0px;
+      top:150px;
+      left:200px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 6s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: backwards;
+      animation-timing-function: ease-in-out;
+    }
+    #fifth
+    {
+      position:absolute;
+      width:100px;
+      height:100px;
+      background:#51B5A9;
+      border-radius:100px 0px 0px 0px;
+      top:-50px;
+      left:100px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate-reverse;
+    }
+    #sixth
+    {
+      position:absolute;
+      width:100px;
+      height:100px;
+      background:#FADE8B;
+      border-radius:100px 0px 0px 0px;
+      top:-50px;
+      left:200px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: reverse;
+    }
+    body
+    {
+      background: #E3516E;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @keyframes example {
+  0%   {transform: rotate(0deg);}
+  25%  { transform: rotate(90deg);}
+  50%  { transform: rotate(180deg);}
+  75%  { transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
+
+
+  </style>
+  
